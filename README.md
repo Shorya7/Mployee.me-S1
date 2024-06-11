@@ -1,3 +1,9 @@
+# Running Screenshots
+![image](https://github.com/Shorya7/Mployee.me-S1/assets/104529541/b4f93fc2-2e94-4422-bc2c-e4107a30d437)
+![Screenshot 2024-06-12 013932](https://github.com/Shorya7/Mployee.me-S1/assets/104529541/36daffc4-2fcb-4778-82ca-725f2fdcef88)
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
