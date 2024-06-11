@@ -1,0 +1,33 @@
+.nav_container{
+    background: #FFFFFF;
+    height: 50px;
+    width: 100vw;
+    box-shadow: 0 4px 2px -2px #0000001A;
+    position: fixed;
+    z-index: 5;
+}
+.nav_container .nav_items{
+    display: flex;
+    justify-content: center;  
+    align-items: center;
+    height: 50px;
+}
+.nav_container .nav_items ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+.nav_container .nav_items ul li{
+    margin: 0;
+    display: inline;
+}
+.nav_items ul li a {
+    text-decoration: none;
+    font-weight: 500;
+    color: #000000;
+    font-size: 15px;
+    padding: 0 10px;
+  }
+.nav_items .active:active {
+    color: yellow;
+  }
