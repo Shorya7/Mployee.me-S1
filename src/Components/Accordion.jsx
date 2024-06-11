@@ -9,12 +9,12 @@ import Done from '../Assets/success.svg'
 export default function AccordionBasic() {
   return (
     <AccordionGroup color="neutral"
-    variant="outlined" sx={{ maxWidth: 500 ,borderRadius: '15px', fontFamily: "Montserrat"}}>
+    variant="outlined" sx={{ maxWidth: 700 , minWidth: 500 ,borderRadius: '15px', fontFamily: "Montserrat", backgroundColor: '#FFFFFF'}}>
       <Accordion>
         
       <AccordionSummary><div className='acc_container' style={{display: 'flex', alignItems: 'center'}}><MdErrorOutline style={{color: 'red', fontSize: 22, marginRight: '5px'}}/>Bullets</div></AccordionSummary>
       
-        <AccordionDetails>
+        <AccordionDetails sx={{fontSize: '13px', marginLeft:'15px', marginBottom: '8px'}}>
         We could not detect any Bullets. Use standard bullets to explain different sections of your resume. In case you have used the bullets.Its not readable by ATS.
         </AccordionDetails>
       </Accordion>
@@ -22,13 +22,13 @@ export default function AccordionBasic() {
         
       <AccordionSummary><div className='acc_container' style={{display: 'flex', alignItems: 'center'}}><MdErrorOutline style={{color: 'red', fontSize: 22, marginRight: '5px'}}/>Bullets</div></AccordionSummary>
       
-        <AccordionDetails>
+        <AccordionDetails sx={{fontSize: '13px', marginLeft:'15px', marginBottom: '8px'}}>
         We could not detect any Bullets. Use standard bullets to explain different sections of your resume. In case you have used the bullets.Its not readable by ATS.
         </AccordionDetails>
       </Accordion>
       <Accordion>
       <AccordionSummary><div className='acc_container' style={{display: 'flex', alignItems: 'center'}}><img src={Done} alt='Success' style={{marginRight: '5px', height: 'auto', width: '22px'}}/>Dates</div></AccordionSummary>
-        <AccordionDetails>
+        <AccordionDetails sx={{fontSize: '13px', marginLeft:'15px', marginBottom: '8px'}}>
         We could not detect any Bullets. Use standard bullets to explain different sections of your resume. In case you have used the bullets.Its not readable by ATS.
         </AccordionDetails>
       </Accordion>
@@ -36,7 +36,7 @@ export default function AccordionBasic() {
         
       <AccordionSummary><div className='acc_container' style={{display: 'flex', alignItems: 'center'}}><MdErrorOutline style={{color: 'red', fontSize: 22, marginRight: '5px'}}/>Bullets</div></AccordionSummary>
       
-        <AccordionDetails>
+        <AccordionDetails sx={{fontSize: '13px', marginLeft:'15px', marginBottom: '8px'}}>
         We could not detect any Bullets. Use standard bullets to explain different sections of your resume. In case you have used the bullets.Its not readable by ATS.
         </AccordionDetails>
       </Accordion>
@@ -44,7 +44,7 @@ export default function AccordionBasic() {
         
       <AccordionSummary><div className='acc_container' style={{display: 'flex', alignItems: 'center'}}><MdErrorOutline style={{color: 'red', fontSize: 22, marginRight: '5px'}}/>Bullets</div></AccordionSummary>
       
-        <AccordionDetails>
+        <AccordionDetails sx={{fontSize: '13px', marginLeft:'15px', marginBottom: '8px'}}>
         We could not detect any Bullets. Use standard bullets to explain different sections of your resume. In case you have used the bullets.Its not readable by ATS.
         </AccordionDetails>
       </Accordion>
@@ -52,7 +52,7 @@ export default function AccordionBasic() {
         
       <AccordionSummary><div className='acc_container' style={{display: 'flex', alignItems: 'center'}}><MdErrorOutline style={{color: 'red', fontSize: 22, marginRight: '5px'}}/>Bullets</div></AccordionSummary>
       
-        <AccordionDetails>
+        <AccordionDetails sx={{fontSize: '13px', marginLeft:'15px'}}>
         We could not detect any Bullets. Use standard bullets to explain different sections of your resume. In case you have used the bullets.Its not readable by ATS.
         </AccordionDetails>
       </Accordion>

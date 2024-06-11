@@ -1,7 +1,7 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
 import './navbar.css';
-
+import Avatar from '../Assets/avatar.svg'
 const Navbar = () => {
   return (
     <div className='nav_container'>
@@ -33,7 +33,12 @@ const Navbar = () => {
           })} >Career Blogs</NavLink>
           </li>
           </ul>
+          <div className='avatar'>
+          <img src={Avatar} alt=''></img>
+          <span> Divyanshu</span>
         </div>
+        </div>
+        
     </div>
   )
 }

@@ -5,6 +5,7 @@
     box-shadow: 0 4px 2px -2px #0000001A;
     position: fixed;
     z-index: 5;
+    /* display: flex; */
 }
 .nav_container .nav_items{
     display: flex;
@@ -30,4 +31,18 @@
   }
 .nav_items .active:active {
     color: yellow;
+  }
+  .avatar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    background-color: #E4E4E4;
+    padding: 3px 10px 3px 3px;
+    position: fixed;
+    right: 30px;
+  }
+  .avatar span{
+    font-weight: 600;
+    margin-left: 5px;
   }
